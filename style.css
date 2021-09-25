@@ -8,5 +8,48 @@ body {
   margin: 0;
   padding: 0;
 }
+h1 {
+  font-size: 1.75rem;
+  margin-block-start: 48px;
+  margin-block-end: 36px;
+}
 
-/* Add styles here! */
+.intro-chunk {
+  max-width: 280px;
+  font-weight: normal;
+  padding: 16px;
+}
+
+.max-width-wrapper {
+  max-width: 500px;
+  margin-inline: auto;
+}
+main {
+  border-top: 4px solid dimgray ;
+  height: 100%;
+  background-color: darkgray;
+}
+
+.card {
+  border-block-end: 4px solid dimgray;
+  padding: 16px;
+  margin-block: 48px;
+  background: #fff;
+}
+
+.indented-heading {
+  font-size: 1.25rem;
+  font-weight: 900;
+  background: #fc0;
+  border-bottom: 4px solid #da1;
+  width: fit-content;
+  padding: 18px;
+  padding-inline-start: 40px;
+  margin-inline-start: -34px;
+  margin-block-start: -12px;
+}
+strong {
+  color: #16a071;
+  font-weight: 900;
+}
+
